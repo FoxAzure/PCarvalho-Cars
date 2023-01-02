@@ -28,59 +28,27 @@
             </div>
         </div>
 
-        <input type="text" placeholder="Pesquisar" id="caixa-pesquisa" onkeyup="listacarros()">
+        <input type="text" placeholder="Pesquisar" id="caixa-pesquisa" onkeyup="pesquisarTabela()">
 
         <div class="lista">
-            
 
             <div class="lista-carros">
-                <p class="tag-car">Fiat - Strada</p>
-                <p class="tag-car">Hyundai - HB20</p>
-                <p class="tag-car">Chevrolet - Onix</p>
-                <p class="tag-car">Chevrolet - Onix Plus</p>
-                <p class="tag-car">Fiat - Mobi</p>
-                <p class="tag-car">Volkswagen - Gol</p>
-                <p class="tag-car">Chevrolet - Tracker</p>
-                <p class="tag-car">Volkswagen - T-Cross</p>
-                <p class="tag-car">Jeep - Compass</p>
-                <p class="tag-car">Fiat - Argo</p>
-                
-                <p class="tag-car">Fiat - Strada</p>
-                <p class="tag-car">Hyundai - HB20</p>
-                <p class="tag-car">Chevrolet - Onix</p>
-                <p class="tag-car">Chevrolet - Onix Plus</p>
-                <p class="tag-car">Fiat - Mobi</p>
-                <p class="tag-car">Volkswagen - Gol</p>
-                <p class="tag-car">Chevrolet - Tracker</p>
-                <p class="tag-car">Volkswagen - T-Cross</p>
-                <p class="tag-car">Jeep - Compass</p>
-                <p class="tag-car">Fiat - Argo</p>
-                <p class="tag-car">Fiat - Strada</p>
-                <p class="tag-car">Hyundai - HB20</p>
-                <p class="tag-car">Chevrolet - Onix</p>
-                <p class="tag-car">Chevrolet - Onix Plus</p>
-                <p class="tag-car">Fiat - Mobi</p>
-                <p class="tag-car">Volkswagen - Gol</p>
-                <p class="tag-car">Chevrolet - Tracker</p>
-                <p class="tag-car">Volkswagen - T-Cross</p>
-                <p class="tag-car">Jeep - Compass</p>
-                <p class="tag-car">Fiat - Argo</p>
-                <p class="tag-car">Fiat - Strada</p>
-                <p class="tag-car">Hyundai - HB20</p>
-                <p class="tag-car">Chevrolet - Onix</p>
-                <p class="tag-car">Chevrolet - Onix Plus</p>
-                <p class="tag-car">Fiat - Mobi</p>
-                <p class="tag-car">Volkswagen - Gol</p>
-                <p class="tag-car">Chevrolet - Tracker</p>
-                <p class="tag-car">Volkswagen - T-Cross</p>
-                <p class="tag-car">Jeep - Compass</p>
-                <p class="tag-car">Fiat - Argo</p>
+                <p class="tag-car" onclick="selectCar('fiat-strada')">Fiat - Strada</p>
+                <p class="tag-car" onclick="selectCar('hyundai-hb20')">Hyundai - HB20</p>
+                <p class="tag-car" style="display: none;">Chevrolet - Onix</p>
+                <p class="tag-car" style="display: none;">Chevrolet - Onix Plus</p>
+                <p class="tag-car" style="display: none;">Fiat - Mobi</p>
+                <p class="tag-car" style="display: none;">Volkswagen - Gol</p>
+                <p class="tag-car" style="display: none;">Chevrolet - Tracker</p>
+                <p class="tag-car" style="display: none;">Volkswagen - T-Cross</p>
+                <p class="tag-car" style="display: none;">Jeep - Compass</p>
+                <p class="tag-car" style="display: none;">Fiat - Argo</p>
             </div>
 
         </div>
 
         <div>
-            <h2>carro-select</h2>
+            <h2 id="nome-carro">carro-select</h2>
             <div class="tela">
                 <div id="carro-select">
     
