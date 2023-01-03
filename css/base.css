@@ -1,0 +1,130 @@
+*{margin: 0; padding: 0;}
+
+.titulo{
+    width: 100%;
+    background-color: aquamarine;
+    padding: 25px;
+    box-sizing: border-box;
+}
+.navegation ul{
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+    width: 80%;
+    margin: 5px auto;
+    padding: 10px 25px;
+}
+.navegation ul li{
+    padding: 25px;
+}
+.corpo{
+    width: 90%;
+    margin: 5px auto;
+}
+.galeria{
+    height: 200px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    box-sizing: border-box;
+}
+.img-galeria{
+    min-width: 200px;
+    height:100%;
+    margin: 0 5px;
+    background-size: cover;
+    
+}
+
+#img-galery-01{
+    background-image: url('../galery/carros/chevrolet_onix_2020_1_06092019_15700_1280_960.jpg')
+}
+#img-galery-02{
+    background-image: url('../galery/carros/fiat_strada_2023_1_16082022_72018_1280_960.jpg')
+}
+#img-galery-03{
+    background-image: url('../galery/carros/hyundai_hb20_2021_1_11072020_31392_1280_960.jpg')
+}
+#img-galery-04{
+    background-image: url('../galery/carros/chevrolet_onix_2021_1_23092020_34062_1280_960.jpg')
+}
+#img-galery-05{
+    background-image: url('../galery/carros/hyundai_hb20_2023_1_06072022_71771_1280_960.jpg')
+}
+#img-galery-06{
+    background-image: url('../galery/carros/chevrolet_onix_2021_1_14022021_46197_1280_960.jpg')
+}
+#img-galery-07{
+    background-image: url('../galery/carros/fiat_strada_2023_1_29072022_71924_1280_960.jpg')
+}
+#img-galery-08{
+    background-image: url('../galery/carros/hyundai_hb20_2023_1_06072022_71772_1280_960.jpg')
+}
+#img-galery-09{
+    background-image: url('../galery/carros/fiat_strada_2023_1_29072022_71922_1280_960.jpg')
+}
+#img-galery-10{
+    background-image: url('../galery/carros/fiat_strada_2023_1_29072022_71923_1280_960.jpg')
+}
+#img-galery-11{
+    background-image: url('../galery/carros/hyundai_hb20_2023_1_02072022_71752_1280_960.jpg')
+}
+
+
+
+
+
+
+
+
+
+
+
+#tela{
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+section{
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 25px;
+}
+.lista{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+}
+button{
+    height: 50px;
+    width: 80%;
+}
+aside{
+    width: 60%;
+}
+.galeria-select{
+    width: 100%;
+    display: flex;
+}
+.img-select{
+    width: calc(100%/4);
+    height: 200px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.info{
+    margin: 25px;
+}
+
+.rodape{
+    background-color: aquamarine;
+    width: 100%;
+    height: 150px;
+}

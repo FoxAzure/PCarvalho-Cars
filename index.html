@@ -4,61 +4,78 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>PCarvalho Cars</title>
+    <link rel="stylesheet" href="css/base.css">
+    <title>PCarvalho Car - Home</title>
 </head>
 <body>
     <header class="cabecalho">
-        <div class="titulo-principal"><h1>PCarvalho Cars</h1></div>
+        <div class="titulo">
+            <h1>PCarvalho Car</h1>
+        </div>
+        <nav class="navegation">
+            <ul>
+                <li>Home</li>
+                <li>Novidades</li>
+                <li>Marcas</li>
+                <li>Parceiros</li>
+            </ul>
+        </nav>
     </header>
-
-    <main>
+    <main class="corpo">
         <div class="galeria">
-            <div class="item" id="item-galeria1">
-
-            </div>
-            <div class="item" id="item-galeria2">
-
-            </div>
-            <div class="item" id="item-galeria3">
-
-            </div>
-            <div class="item" id="item-galeria4">
-
-            </div>
+            <img class="img-galeria" id="img-galery-01">
+            <img class="img-galeria" id="img-galery-02">
+            <img class="img-galeria" id="img-galery-03">
+            <img class="img-galeria" id="img-galery-04">
+            <img class="img-galeria" id="img-galery-05">
+            <img class="img-galeria" id="img-galery-06">
+            <img class="img-galeria" id="img-galery-07">
+            <img class="img-galeria" id="img-galery-08">
+            <img class="img-galeria" id="img-galery-09">
+            <img class="img-galeria" id="img-galery-10">
+            <img class="img-galeria" id="img-galery-11">
         </div>
 
-        <input type="text" placeholder="Pesquisar" id="caixa-pesquisa" onkeyup="pesquisarTabela()">
+        <h2>Lista dos carros mais vendidos no Brasil em 2022</h2>
 
-        <div class="lista">
-
-            <div class="lista-carros">
-                <p class="tag-car" onclick="selectCar('fiat-strada')">Fiat - Strada</p>
-                <p class="tag-car" onclick="selectCar('hyundai-hb20')">Hyundai - HB20</p>
-                <p class="tag-car" style="display: none;">Chevrolet - Onix</p>
-                <p class="tag-car" style="display: none;">Chevrolet - Onix Plus</p>
-                <p class="tag-car" style="display: none;">Fiat - Mobi</p>
-                <p class="tag-car" style="display: none;">Volkswagen - Gol</p>
-                <p class="tag-car" style="display: none;">Chevrolet - Tracker</p>
-                <p class="tag-car" style="display: none;">Volkswagen - T-Cross</p>
-                <p class="tag-car" style="display: none;">Jeep - Compass</p>
-                <p class="tag-car" style="display: none;">Fiat - Argo</p>
+        <section>
+            <div class="lista">
+                <button onclick="selectCar(1)"><img src="" alt="">Strada</button>
+                <button onclick="selectCar(2)"><img src="" alt="">HB20</button>
+                <button onclick="selectCar(3)"><img src="" alt="">Onix</button>
+                <button onclick="selectCar(4)"><img src="" alt="">Strada</button>
+                <button onclick="selectCar(5)"><img src="" alt="">Strada</button>
+                <button onclick="selectCar(6)"><img src="" alt="">Strada</button>
+                <button onclick="selectCar(7)"><img src="" alt="">Strada</button>
+                <button onclick="selectCar(8)"><img src="" alt="">Strada</button>
+                <button onclick="selectCar(9)"><img src="" alt="">Strada</button>
+                <button onclick="selectCar(10)"><img src="" alt="">Strada</button>
             </div>
+            <aside>
+                <h2 id="nome-carro"></h2>
+                <div id="tela">
 
-        </div>
-
-        <div>
-            <h2 id="nome-carro">carro-select</h2>
-            <div class="tela">
-                <div id="carro-select">
-    
                 </div>
                 <div class="info">
-                    <p>Carro - aaaaa</p>
-                    <p>Marca - bbbbb</p>
-                    <p>Ano - aaaaa</p>
-    
+                    <p id="nome">Nome</p>
+                    <p id="marca">Marca</p>
+                    <p id="categoria">Categoria</p>
+                    <p id="descricao">Descrição</p>
                 </div>
+            </aside>
+        </section>
+        <div class="galeria-select">
+            <div id="foto1" class="img-select">
+
+            </div>
+            <div id="foto2" class="img-select">
+
+            </div>
+            <div id="foto3" class="img-select">
+
+            </div>
+            <div id="foto4" class="img-select">
+
             </div>
         </div>
 
@@ -67,7 +84,6 @@
     <footer class="rodape">
 
     </footer>
-    
 </body>
 
     <script src="scripts/principal.js"></script>

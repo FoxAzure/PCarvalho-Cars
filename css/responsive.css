@@ -1,0 +1,12 @@
+
+@media only screen and (max-width: 500px){
+    .galeria-select{
+        flex-flow: column nowrap;
+        width: 100%;
+    }
+    .fotos{
+        width: 90%;
+        height: 500px;
+    }
+}
+
