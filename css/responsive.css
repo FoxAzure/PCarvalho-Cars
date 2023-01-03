@@ -1,12 +1,64 @@
 
-@media only screen and (max-width: 500px){
-    .galeria-select{
-        flex-flow: column nowrap;
+
+@media only screen and (max-width: 400px){
+    main{
         width: 100%;
     }
-    .fotos{
-        width: 90%;
-        height: 500px;
+    .navegation ul{
+        display: flex;
+        flex-flow: row nowrap;
+        list-style: none;
+
+        text-align: center;
     }
+    .navegation ul li{
+        padding: 5px;
+    }
+    #tela{
+        width: 100%;
+        height: 400px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+    section{
+        display: flex;
+        flex-flow: row nowrap;
+        margin: 5px;
+    }
+    .lista{
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 15px;
+    }
+    button{
+        height: 50px;
+        width: 100%;
+    }
+    aside{
+        width: 80%;
+    }
+    .galeria-select{
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .img-select{
+        box-sizing: border-box;
+        width: calc(100%/2.2);
+        height: 180px;
+        margin: 5px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .info{
+        margin: 25px;
+    }
+    
 }
 
